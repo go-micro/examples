@@ -33,3 +33,9 @@ This is a repository for go-micro examples. Feel free to contribute.
 - [stream](stream) - An example of a streaming service and client
 - [waitgroup](waitgroup) - Demonstrates how to use a waitgroup with a service
 - [wrapper](wrapper) - A simple example of using a log wrapper
+
+## Community
+
+- [Discord](https://discord.gg/qV3HvnEJfB)
+- [Slack](https://join.slack.com/t/go-micro/shared_invite/zt-175aaev1d-iHExPTlfxvfkOeeKLIYEYw)
+- [QQ Group](https://jq.qq.com/?_wv=1027&k=5Gmrfv9i)
