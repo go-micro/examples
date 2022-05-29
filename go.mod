@@ -2,30 +2,16 @@ module github.com/go-micro/examples
 
 go 1.17
 
-replace (
-	github.com/asim/go-micro/plugins/client/grpc/v4 => ../plugins/client/grpc
-	github.com/asim/go-micro/plugins/client/http/v4 => ../plugins/client/http
-	github.com/asim/go-micro/plugins/config/encoder/toml/v4 => ../plugins/config/encoder/toml
-	github.com/asim/go-micro/plugins/config/encoder/yaml/v4 => ../plugins/config/encoder/yaml
-	github.com/asim/go-micro/plugins/config/source/grpc/v4 => ../plugins/config/source/grpc
-	github.com/asim/go-micro/plugins/server/grpc/v4 => ../plugins/server/grpc
-	github.com/asim/go-micro/plugins/server/http/v4 => ../plugins/server/http
-	github.com/asim/go-micro/plugins/transport/grpc/v4 => ../plugins/transport/grpc
-	github.com/asim/go-micro/plugins/wrapper/select/roundrobin/v4 => ../plugins/wrapper/select/roundrobin
-	github.com/asim/go-micro/plugins/wrapper/select/shard/v4 => ../plugins/wrapper/select/shard
-	go-micro.dev/v4 => ../../go-micro
-)
-
 require (
-	github.com/asim/go-micro/plugins/client/grpc/v4 v4.0.0-20211019191242-9edc569e68bb
-	github.com/asim/go-micro/plugins/client/http/v4 v4.0.0-00010101000000-000000000000
-	github.com/asim/go-micro/plugins/config/encoder/toml/v4 v4.0.0-00010101000000-000000000000
-	github.com/asim/go-micro/plugins/config/encoder/yaml/v4 v4.0.0-00010101000000-000000000000
-	github.com/asim/go-micro/plugins/config/source/grpc/v4 v4.0.0-00010101000000-000000000000
-	github.com/asim/go-micro/plugins/server/grpc/v4 v4.0.0-00010101000000-000000000000
-	github.com/asim/go-micro/plugins/server/http/v4 v4.0.0-00010101000000-000000000000
-	github.com/asim/go-micro/plugins/wrapper/select/roundrobin/v4 v4.0.0-00010101000000-000000000000
-	github.com/asim/go-micro/plugins/wrapper/select/shard/v4 v4.0.0-00010101000000-000000000000
+	github.com/asim/go-micro/plugins/client/grpc/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/client/http/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/config/encoder/toml/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/config/encoder/yaml/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/config/source/grpc/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/server/grpc/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/server/http/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/wrapper/select/roundrobin/v4 v4.0.0-20220511085541-13b76331ec6f
+	github.com/asim/go-micro/plugins/wrapper/select/shard/v4 v4.0.0-20220511085541-13b76331ec6f
 	github.com/gin-gonic/gin v1.7.4
 	github.com/golang/glog v1.0.0
 	github.com/golang/protobuf v1.5.2
