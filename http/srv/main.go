@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	httpServer "github.com/asim/go-micro/plugins/server/http/v4"
+	httpServer "github.com/go-micro/plugins/v4/server/http"
 	"go-micro.dev/v4"
 
+	"github.com/gin-gonic/gin"
 	"go-micro.dev/v4/registry"
 	"go-micro.dev/v4/server"
-	"github.com/gin-gonic/gin"
 )
 
 const (

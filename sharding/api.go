@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	hello "github.com/go-micro/examples/greeter/srv/proto/hello"
+	shard "github.com/go-micro/plugins/v4/wrapper/select/shard"
 	"go-micro.dev/v4"
-	"go-micro.dev/v4/errors"
-	shard "github.com/asim/go-micro/plugins/wrapper/select/shard/v4"
 	api "go-micro.dev/v4/api/proto"
+	"go-micro.dev/v4/errors"
 
 	"context"
 )

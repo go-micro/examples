@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"go-micro.dev/v4/client"
-	"go-micro.dev/v4/selector"
-	"go-micro.dev/v4/cmd"
 	"go-micro.dev/v4/registry"
+	"go-micro.dev/v4/selector"
+	"go-micro.dev/v4/util/cmd"
 
 	example "github.com/go-micro/examples/server/proto/example"
 )

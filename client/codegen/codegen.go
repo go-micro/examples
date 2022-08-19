@@ -4,8 +4,9 @@ import (
 	"fmt"
 
 	"context"
+
 	example "github.com/go-micro/examples/server/proto/example"
-	"go-micro.dev/v4/cmd"
+	"go-micro.dev/v4/util/cmd"
 )
 
 var (

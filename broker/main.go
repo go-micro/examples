@@ -5,8 +5,9 @@ import (
 	"log"
 	"time"
 
+	_ "github.com/go-micro/plugins/v4/broker/nats"
 	"go-micro.dev/v4/broker"
-	"go-micro.dev/v4/cmd"
+	"go-micro.dev/v4/util/cmd"
 )
 
 var (
