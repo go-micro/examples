@@ -7,7 +7,7 @@ import (
 	"time"
 
 	pb "github.com/go-micro/examples/stream/grpc/proto"
-	"github.com/asim/go-micro/plugins/server/grpc/v4"
+	"github.com/go-micro/plugins/v4/server/grpc"
 	"go-micro.dev/v4"
 	"go-micro.dev/v4/logger"
 	"google.golang.org/protobuf/proto"

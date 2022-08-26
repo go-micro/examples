@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	yaml "github.com/asim/go-micro/plugins/config/encoder/yaml/v4"
-	proto "github.com/asim/go-micro/plugins/config/source/grpc/v4/proto"
+	yaml "github.com/go-micro/plugins/v4/config/encoder/yaml"
+	proto "github.com/go-micro/plugins/v4/config/source/grpc/proto"
 	"go-micro.dev/v4/config"
 	"go-micro.dev/v4/config/reader"
 	"go-micro.dev/v4/config/reader/json"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	grpcConfig "github.com/asim/go-micro/plugins/config/source/grpc/v4"
+	grpcConfig "github.com/go-micro/plugins/v4/config/source/grpc"
 	"go-micro.dev/v4/config"
 	log "go-micro.dev/v4/logger"
 )

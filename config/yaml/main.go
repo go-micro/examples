@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	yaml "github.com/asim/go-micro/plugins/config/encoder/yaml/v4"
+	yaml "github.com/go-micro/plugins/v4/config/encoder/yaml"
 	"go-micro.dev/v4/config"
 	"go-micro.dev/v4/config/reader"
 	"go-micro.dev/v4/config/reader/json"
