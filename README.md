@@ -4,6 +4,7 @@ This is a repository for go-micro examples. Feel free to contribute.
 
 ## Contents
 
+- [auth](auth) - A example of using middleware to enforce authentication with JWT
 - [broker](broker) - A example of using Broker for Publish and Subscribing.
 - [cache](cache) - Usage of the Cache package to create a cache service.
 - [client](client) - Usage of the Client package to call a service.
