@@ -1,6 +1,6 @@
 # Hello World
 
-This is hello world using micro
+This is hello world using go-micro
 
 ## Contents
 
@@ -9,25 +9,18 @@ This is hello world using micro
 
 ## Dependencies
 
-Install the following
+- [generator](https://github.com/go-micro/generator)
 
-- [micro](https://github.com/asim/go-micro/tree/master/cmd/micro)
-- [protoc-gen-micro](https://github.com/asim/go-micro/tree/master/cmd/protoc-gen-micro)
+## Usage
 
-## Run Service
-
-```shell
-micro run . --name helloworld
-```
-
-## Query Service
+To run it
 
 ```
-micro call helloworld Greeter.Hello '{"name": "John"}'
+go run main.go
 ```
 
-## List Services
+To rebuild the proto
 
-```shell
-micro services
+```
+protoc --proto_path=. --micro_out=. --go_out=. proto/greeter.proto
 ```
